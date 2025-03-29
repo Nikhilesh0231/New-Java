@@ -40,7 +40,7 @@ public class staticMethods_NonStaticMethod {
     //Calling static methods of second class by class reference
     second.hello();
     //Callin static method second class using instance of the second class
-    second obj = new second();
-    obj.hello();
+    // second obj = new second();
+    // obj.hello();
   }
 }

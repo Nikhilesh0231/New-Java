@@ -1,7 +1,7 @@
 public class Scope_Of_Variable {
   public void display(){
     int x = 10;
-    // System.out.println("inside display method x = " + x);
+    System.out.println("inside display method x = " + x);
   }
   public static void main(String[] args) {
 
