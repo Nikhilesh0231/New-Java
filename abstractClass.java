@@ -5,6 +5,7 @@ abstract class sample{
   abstract void getDetails();//we can not give the body of abstract method
 }
 class abstractClass extends sample{
+  @Override
   public void getDetails() {
     System.out.println("This is a sample abstract class abstract method which is overided here.");
     }

@@ -8,6 +8,7 @@ class Sample1{
 class Sample2 extends Sample1{
 
   public int x = 20;
+  @Override
   void display(){
 
     //now it will first call Sample1 display method

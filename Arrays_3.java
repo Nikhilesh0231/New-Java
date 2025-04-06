@@ -16,6 +16,7 @@ public class Arrays_3 {
     for(int i : array){
       System.out.print(i + " ");
     }
+    input.close();
 
   }
 }

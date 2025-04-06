@@ -3,11 +3,13 @@ abstract class Language{
 }
 
 class Java extends Language{
+  @Override
   public void Programming(){
     System.out.println("Programming language is java.");
   }
 }
 class Python extends Language{
+  @Override
   public void Programming(){
     System.out.println("Programming language is python.");
   }

@@ -4,6 +4,7 @@ class Shape{
   }
 }
 class Square extends Shape{
+  @Override
   public void display(){
     System.out.println("Square");
   }
