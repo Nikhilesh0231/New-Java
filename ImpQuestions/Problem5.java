@@ -36,5 +36,6 @@ public class Problem5 {
     //Apprach 2
     System.out.println("The Series is : ");
     fibonacci(n);
+    sc.close();
   }
 }

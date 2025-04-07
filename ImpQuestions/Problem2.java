@@ -1,6 +1,5 @@
 //Array Sorting
 
-import java.lang.reflect.Array;
 import java.util.Scanner;
 
 class Problem2 {
@@ -60,6 +59,6 @@ class Problem2 {
 
         System.out.print("\nReversed array :");
         printArray(arr);
-
+        sc.close();
     }
 }
