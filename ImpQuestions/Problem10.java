@@ -7,7 +7,7 @@ public class Problem10 {
     System.out.print("Enter a number to check for the prime : ");
     int n = sc.nextInt();
     sc.close();
-    System.out.println(Math.sqrt(n));
+    // System.out.println(Math.sqrt(n));
     if(n == 0 || n == 1){
       System.out.println(n + " is not a prime number");
     }
@@ -20,6 +20,10 @@ public class Problem10 {
           System.out.println(n + " is not a prime number");
           break;
         }
+        else{
+          System.out.println(n + " is a prime number");
+          break;
+          }
       }}
   }
 }
